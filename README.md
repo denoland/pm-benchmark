@@ -7,12 +7,12 @@ Linux divy 6.10.6-arch1-1 #1 SMP PREEMPT_DYNAMIC Mon, 19 Aug 2024 17:02:39 +0000
 
 | Runtime | Version |
 | ------- | ------- |
-| Node.js | 22.8.0  |
-| Deno    | 2.0.5   |
-| Bun     | 1.1.27  |
-| Npm     | 10.7.0  |
+| Node.js | 25.1.0  |
+| Deno    | 3.0.0   |
+| Bun     | 1.3.1   |
+| Npm     | 11.6.2  |
 | Yarn    | 1.22.22 |
-| Pnpm    | 9.1.1   |
+| Pnpm    | 10.20.0 |
 
 ## Benchmark
 
@@ -30,9 +30,9 @@ Run the same script with the cache enabled (comment the first few lines that rem
 
 | Runtime | Uncached | Cached |
 | ------- | -------  | ------ |
-Deno|	27.332s	|0.869s
-npm	|32.112s|	9.034s
-yarn	|25.694s|	8.955s
-pnpm	|20.525s|	7.645s
-Bun	|30.395s	|1.219s
+Deno|	19.828s	|0.752s
+npm	|31.646s|	13.513s
+yarn	|27.087s|	13.144s
+pnpm	|19.282s|	6.942s
+Bun	|22.145s	|0.557s
 
